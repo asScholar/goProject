@@ -17,7 +17,7 @@ import (
 main函数，main函数是每一个可执行程序所必须包含的。
 一般来说main函数是程序启动后第一个执行的函数（如果有init函数，则会首先执行init函数）。
 */
-func main_() {
+func main() {
 	/*
 		标准输出函数。
 	*/
