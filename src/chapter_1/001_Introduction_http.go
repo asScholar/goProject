@@ -1,0 +1,11 @@
+// 001_Introduction_http
+package main
+
+import (
+	"net/http"
+)
+
+func main() {
+	http.Handle("/", http.FileServer(http.Dir(".")))
+	http.ListenAndServe(":8081", nil)
+}
